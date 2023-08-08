@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:context="http://www.springframework.org/schema/context"
+
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	
+   <context:component-scan base-package="com.lvg.spcd.beans"/>
+   
+  
+		
+</beans>
+
+<!--  
+<bean id="add1" class="com.lvg.spcd.beans.Address" >
+		<property name="hno" value="1-2-/3"/>
+		<property name="streetName" value="Gadhikhana"/>
+		<property name="city" value="vzm"/>
+		<property name="state" value="AP"/>
+			</bean>
+			
+			<bean id="add2" class="com.lvg.spcd.beans.Address" >
+		<property name="hno" value="1-2-/78"/>
+		<property name="streetName" value="Ganistreet"/>
+		<property name="city" value="vspk"/>
+		<property name="state" value="AP"/>
+			</bean>
+		
+	
+	<bean id="per1" class="com.lvg.spcd.beans.Person" >
+		<property name="ssn" value="1234"/>
+		<property name="name" value="Deepika Karanam"/>
+		<property name="age" value="28"/>
+		  <property name="address" ref="add1"/> 
+	
+		</bean>
+	-->
